@@ -23,6 +23,10 @@
 		1CE973D5258F680000C18090 /* VolumeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE973D3258F680000C18090 /* VolumeResponse.swift */; };
 		1CE97400258F9D6900C18090 /* VolumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE973FF258F9D6900C18090 /* VolumeViewModel.swift */; };
 		1CE97404258F9D7500C18090 /* VolumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE973FF258F9D6900C18090 /* VolumeViewModel.swift */; };
+		1CE9742D258FBBC100C18090 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9742C258FBBC100C18090 /* DetailsViewController.swift */; };
+		1CE9742E258FBBC100C18090 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9742C258FBBC100C18090 /* DetailsViewController.swift */; };
+		1CE97433258FBD5D00C18090 /* Bookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE97432258FBD5C00C18090 /* Bookmarks.swift */; };
+		1CE97434258FBD5D00C18090 /* Bookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE97432258FBD5C00C18090 /* Bookmarks.swift */; };
 		9522369444FC913FE33AA631 /* Pods_BookStore_Bruno_BookStore_BrunoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E28DE5EC31DF1730161C16 /* Pods_BookStore_Bruno_BookStore_BrunoUITests.framework */; };
 		A9D1442824CD4D1728D924C0 /* Pods_BookStore_BrunoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754B2FA30A50E94F4EEA2D85 /* Pods_BookStore_BrunoTests.framework */; };
 		E41580574315E47630A26AD6 /* Pods_BookStore_Bruno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C01A453CA2F725F2EA32E0 /* Pods_BookStore_Bruno.framework */; };
@@ -65,6 +69,8 @@
 		1C2EF88B258E2653001F9BF5 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		1CE973D3258F680000C18090 /* VolumeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeResponse.swift; sourceTree = "<group>"; };
 		1CE973FF258F9D6900C18090 /* VolumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeViewModel.swift; sourceTree = "<group>"; };
+		1CE9742C258FBBC100C18090 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1CE97432258FBD5C00C18090 /* Bookmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmarks.swift; sourceTree = "<group>"; };
 		1DB4096439278EAC5368CB5E /* Pods-BookStore_BrunoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_BrunoTests.debug.xcconfig"; path = "Target Support Files/Pods-BookStore_BrunoTests/Pods-BookStore_BrunoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33E28DE5EC31DF1730161C16 /* Pods_BookStore_Bruno_BookStore_BrunoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookStore_Bruno_BookStore_BrunoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2CD7F06D8441FD95C987AC /* Pods-BookStore_Bruno-BookStore_BrunoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_Bruno-BookStore_BrunoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BookStore_Bruno-BookStore_BrunoUITests/Pods-BookStore_Bruno-BookStore_BrunoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 				1C2EF88B258E2653001F9BF5 /* BookModel.swift */,
 				1CE973D3258F680000C18090 /* VolumeResponse.swift */,
 				1CE973FF258F9D6900C18090 /* VolumeViewModel.swift */,
+				1CE9742C258FBBC100C18090 /* DetailsViewController.swift */,
+				1CE97432258FBD5C00C18090 /* Bookmarks.swift */,
 			);
 			path = BookStore_Bruno;
 			sourceTree = "<group>";
@@ -424,7 +432,9 @@
 			files = (
 				1C2EF88C258E2653001F9BF5 /* BookModel.swift in Sources */,
 				1C2EF833258CDE9F001F9BF5 /* ViewController.swift in Sources */,
+				1CE97433258FBD5D00C18090 /* Bookmarks.swift in Sources */,
 				1C2EF886258E185A001F9BF5 /* BooksAPI.swift in Sources */,
+				1CE9742D258FBBC100C18090 /* DetailsViewController.swift in Sources */,
 				1CE97400258F9D6900C18090 /* VolumeViewModel.swift in Sources */,
 				1CE973D4258F680000C18090 /* VolumeResponse.swift in Sources */,
 				1C2EF82F258CDE9F001F9BF5 /* AppDelegate.swift in Sources */,
@@ -437,10 +447,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2EF88D258E2653001F9BF5 /* BookModel.swift in Sources */,
+				1CE97434258FBD5D00C18090 /* Bookmarks.swift in Sources */,
 				1CE973D5258F680000C18090 /* VolumeResponse.swift in Sources */,
 				1C2EF846258CDEA2001F9BF5 /* BookStore_BrunoTests.swift in Sources */,
 				1CE97404258F9D7500C18090 /* VolumeViewModel.swift in Sources */,
 				1C2EF887258E185A001F9BF5 /* BooksAPI.swift in Sources */,
+				1CE9742E258FBBC100C18090 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
